@@ -91,3 +91,27 @@ body {
     margin-top: 7rem;
   }
 }
+  .parallax {
+    /* The image used */
+    background-image: url("./imagens/transito-parallax.jpeg");
+  
+    /* Set a specific height */
+    min-height: 500px;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }  
+
+.parallax h1 {
+  color: white;
+  line-height: 50px;
+}
+
+.center {
+  margin: auto;
+  padding-top : 80px;
+  text-align: center;
+}
